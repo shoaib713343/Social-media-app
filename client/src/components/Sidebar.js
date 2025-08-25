@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { getPosts } from "../api/posts";
 import { isLoggedIn } from "../helpers/authHelper";
 import FindUsers from "./FindUsers";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import Loading from "./Loading";
 import PostCard from "./PostCard";
 import TopPosts from "./TopPosts";
@@ -14,7 +14,7 @@ const Sidebar = () => {
     <Stack spacing={2}>
       <TopPosts />
       <FindUsers />
-      <Footer />
+      {/* <Footer /> */}
     </Stack>
   );
 };
